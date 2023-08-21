@@ -1,0 +1,152 @@
+2023-06-29 09:44:27,491 INFO o.s.b.StartupInfoLogger [restartedMain] Starting ContentsApplication using Java 17.0.6 with PID 16636 (D:\코딩공부\멋사 5기\박지호강사님\contents-test\out\production\classes started by LGH in D:\코딩공부\멋사 5기\박지호강사님\contents-test)
+2023-06-29 09:44:27,492 DEBUG o.s.b.StartupInfoLogger [restartedMain] Running with Spring Boot v3.1.1, Spring v6.0.10
+2023-06-29 09:44:27,493 INFO o.s.b.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2023-06-29 09:44:29,805 WARN o.s.c.LocalVariableTableParameterNameDiscoverer [restartedMain] Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.example.contents.UserRepository
+2023-06-29 09:44:29,881 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-06-29 09:44:30,145 INFO o.s.b.StartupInfoLogger [restartedMain] Started ContentsApplication in 3.039 seconds (process running for 3.59)
+2023-06-29 10:23:06,012 WARN o.s.b.f.s.DisposableBeanAdapter [SpringApplicationShutdownHook] Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-214]
+2023-06-29 10:23:09,900 INFO o.s.b.StartupInfoLogger [restartedMain] Starting ContentsApplication using Java 17.0.6 with PID 5228 (D:\코딩공부\멋사 5기\박지호강사님\contents-test\out\production\classes started by LGH in D:\코딩공부\멋사 5기\박지호강사님\contents-test)
+2023-06-29 10:23:09,904 DEBUG o.s.b.StartupInfoLogger [restartedMain] Running with Spring Boot v3.1.1, Spring v6.0.10
+2023-06-29 10:23:09,904 INFO o.s.b.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2023-06-29 10:23:12,194 WARN o.s.c.LocalVariableTableParameterNameDiscoverer [restartedMain] Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.example.contents.UserRepository
+2023-06-29 10:23:12,267 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-06-29 10:23:12,516 INFO o.s.b.StartupInfoLogger [restartedMain] Started ContentsApplication in 3.003 seconds (process running for 3.524)
+2023-06-29 10:23:12,520 INFO c.e.c.ContentsApplication [pool-2-thread-1] log test 2023-06-29T10:23:12.520348400
+2023-06-29 10:23:13,034 INFO c.e.c.ContentsApplication [pool-2-thread-1] log test 2023-06-29T10:23:13.034559700
+2023-06-29 10:23:13,532 INFO c.e.c.ContentsApplication [pool-2-thread-1] log test 2023-06-29T10:23:13.532062100
+2023-06-29 10:23:14,027 INFO c.e.c.ContentsApplication [pool-2-thread-1] log test 2023-06-29T10:23:14.027489700
+2023-06-29 10:23:14,522 INFO c.e.c.ContentsApplication [pool-2-thread-1] log test 2023-06-29T10:23:14.522718800
+2023-06-29 10:23:15,033 INFO c.e.c.ContentsApplication [pool-2-thread-1] log test 2023-06-29T10:23:15.033398600
+2023-06-29 10:23:15,530 INFO c.e.c.ContentsApplication [pool-2-thread-1] log test 2023-06-29T10:23:15.530956300
+2023-06-29 10:23:16,027 INFO c.e.c.ContentsApplication [pool-2-thread-1] log test 2023-06-29T10:23:16.027284600
+2023-06-29 10:23:16,522 INFO c.e.c.ContentsApplication [pool-2-thread-1] log test 2023-06-29T10:23:16.522899700
+2023-06-29 10:23:17,033 INFO c.e.c.ContentsApplication [pool-2-thread-1] log test 2023-06-29T10:23:17.033494800
+2023-06-29 10:23:17,528 INFO c.e.c.ContentsApplication [pool-2-thread-1] log test 2023-06-29T10:23:17.528410100
+2023-06-29 10:23:18,024 INFO c.e.c.ContentsApplication [pool-2-thread-1] log test 2023-06-29T10:23:18.024096100
+2023-06-29 10:23:18,535 INFO c.e.c.ContentsApplication [pool-2-thread-1] log test 2023-06-29T10:23:18.535368300
+2023-06-29 10:23:19,030 INFO c.e.c.ContentsApplication [pool-2-thread-1] log test 2023-06-29T10:23:19.030484
+2023-06-29 10:23:19,529 INFO c.e.c.ContentsApplication [pool-2-thread-1] log test 2023-06-29T10:23:19.529058
+2023-06-29 10:23:20,026 INFO c.e.c.ContentsApplication [pool-2-thread-1] log test 2023-06-29T10:23:20.026210500
+2023-06-29 10:23:20,521 INFO c.e.c.ContentsApplication [pool-2-thread-1] log test 2023-06-29T10:23:20.521826
+2023-06-29 10:23:21,032 INFO c.e.c.ContentsApplication [pool-2-thread-1] log test 2023-06-29T10:23:21.032488600
+2023-06-29 10:23:21,528 INFO c.e.c.ContentsApplication [pool-2-thread-1] log test 2023-06-29T10:23:21.528529800
+2023-06-29 10:23:22,024 INFO c.e.c.ContentsApplication [pool-2-thread-1] log test 2023-06-29T10:23:22.024669400
+2023-06-29 10:23:22,521 INFO c.e.c.ContentsApplication [pool-2-thread-1] log test 2023-06-29T10:23:22.521054
+2023-06-29 10:23:23,021 INFO c.e.c.ContentsApplication [pool-2-thread-1] log test 2023-06-29T10:23:23.021069200
+2023-06-29 10:23:23,531 INFO c.e.c.ContentsApplication [pool-2-thread-1] log test 2023-06-29T10:23:23.531782200
+2023-06-29 10:23:24,028 INFO c.e.c.ContentsApplication [pool-2-thread-1] log test 2023-06-29T10:23:24.028062400
+2023-06-29 10:23:24,524 INFO c.e.c.ContentsApplication [pool-2-thread-1] log test 2023-06-29T10:23:24.524534600
+2023-06-29 10:23:25,021 INFO c.e.c.ContentsApplication [pool-2-thread-1] log test 2023-06-29T10:23:25.021976400
+2023-06-29 10:23:25,532 INFO c.e.c.ContentsApplication [pool-2-thread-1] log test 2023-06-29T10:23:25.532428700
+2023-06-29 10:23:26,028 INFO c.e.c.ContentsApplication [pool-2-thread-1] log test 2023-06-29T10:23:26.028494500
+2023-06-29 10:23:26,525 INFO c.e.c.ContentsApplication [pool-2-thread-1] log test 2023-06-29T10:23:26.525247700
+2023-06-29 10:23:27,021 INFO c.e.c.ContentsApplication [pool-2-thread-1] log test 2023-06-29T10:23:27.021938
+2023-06-29 10:23:27,534 INFO c.e.c.ContentsApplication [pool-2-thread-1] log test 2023-06-29T10:23:27.534193200
+2023-06-29 10:23:28,031 INFO c.e.c.ContentsApplication [pool-2-thread-1] log test 2023-06-29T10:23:28.031399
+2023-06-29 10:23:28,527 INFO c.e.c.ContentsApplication [pool-2-thread-1] log test 2023-06-29T10:23:28.527818300
+2023-06-29 10:23:29,023 INFO c.e.c.ContentsApplication [pool-2-thread-1] log test 2023-06-29T10:23:29.023331900
+2023-06-29 10:23:29,533 INFO c.e.c.ContentsApplication [pool-2-thread-1] log test 2023-06-29T10:23:29.533515100
+2023-06-29 10:23:30,029 INFO c.e.c.ContentsApplication [pool-2-thread-1] log test 2023-06-29T10:23:30.029578400
+2023-06-29 10:23:30,525 INFO c.e.c.ContentsApplication [pool-2-thread-1] log test 2023-06-29T10:23:30.525673200
+2023-06-29 10:23:31,021 INFO c.e.c.ContentsApplication [pool-2-thread-1] log test 2023-06-29T10:23:31.021438400
+2023-06-29 10:23:31,533 INFO c.e.c.ContentsApplication [pool-2-thread-1] log test 2023-06-29T10:23:31.533566800
+2023-06-29 10:23:32,028 INFO c.e.c.ContentsApplication [pool-2-thread-1] log test 2023-06-29T10:23:32.028426300
+2023-06-29 10:23:32,524 INFO c.e.c.ContentsApplication [pool-2-thread-1] log test 2023-06-29T10:23:32.524758100
+2023-06-29 10:23:33,021 INFO c.e.c.ContentsApplication [pool-2-thread-1] log test 2023-06-29T10:23:33.021245500
+2023-06-29 10:23:33,532 INFO c.e.c.ContentsApplication [pool-2-thread-1] log test 2023-06-29T10:23:33.532438
+2023-06-29 10:23:34,028 INFO c.e.c.ContentsApplication [pool-2-thread-1] log test 2023-06-29T10:23:34.028597800
+2023-06-29 10:23:34,524 INFO c.e.c.ContentsApplication [pool-2-thread-1] log test 2023-06-29T10:23:34.524594100
+2023-06-29 10:23:35,022 INFO c.e.c.ContentsApplication [pool-2-thread-1] log test 2023-06-29T10:23:35.022402500
+2023-06-29 10:23:35,533 INFO c.e.c.ContentsApplication [pool-2-thread-1] log test 2023-06-29T10:23:35.533605500
+2023-06-29 10:23:36,029 INFO c.e.c.ContentsApplication [pool-2-thread-1] log test 2023-06-29T10:23:36.029624900
+2023-06-29 10:23:36,525 INFO c.e.c.ContentsApplication [pool-2-thread-1] log test 2023-06-29T10:23:36.525062800
+2023-06-29 10:23:37,020 INFO c.e.c.ContentsApplication [pool-2-thread-1] log test 2023-06-29T10:23:37.020838600
+2023-06-29 10:23:37,532 INFO c.e.c.ContentsApplication [pool-2-thread-1] log test 2023-06-29T10:23:37.532465200
+2023-06-29 10:23:38,027 INFO c.e.c.ContentsApplication [pool-2-thread-1] log test 2023-06-29T10:23:38.027545100
+2023-06-29 10:23:38,524 INFO c.e.c.ContentsApplication [pool-2-thread-1] log test 2023-06-29T10:23:38.524792200
+2023-06-29 10:23:39,022 INFO c.e.c.ContentsApplication [pool-2-thread-1] log test 2023-06-29T10:23:39.022315200
+2023-06-29 10:23:39,533 INFO c.e.c.ContentsApplication [pool-2-thread-1] log test 2023-06-29T10:23:39.533028
+2023-06-29 10:23:40,030 INFO c.e.c.ContentsApplication [pool-2-thread-1] log test 2023-06-29T10:23:40.030661
+2023-06-29 10:23:40,526 INFO c.e.c.ContentsApplication [pool-2-thread-1] log test 2023-06-29T10:23:40.526861
+2023-06-29 10:23:41,023 INFO c.e.c.ContentsApplication [pool-2-thread-1] log test 2023-06-29T10:23:41.023568800
+2023-06-29 10:23:41,535 INFO c.e.c.ContentsApplication [pool-2-thread-1] log test 2023-06-29T10:23:41.535185100
+2023-06-29 10:23:42,031 INFO c.e.c.ContentsApplication [pool-2-thread-1] log test 2023-06-29T10:23:42.031646900
+2023-06-29 10:23:42,527 INFO c.e.c.ContentsApplication [pool-2-thread-1] log test 2023-06-29T10:23:42.527319300
+2023-06-29 10:23:43,024 INFO c.e.c.ContentsApplication [pool-2-thread-1] log test 2023-06-29T10:23:43.024809600
+2023-06-29 10:23:43,520 INFO c.e.c.ContentsApplication [pool-2-thread-1] log test 2023-06-29T10:23:43.520554500
+2023-06-29 10:23:44,031 INFO c.e.c.ContentsApplication [pool-2-thread-1] log test 2023-06-29T10:23:44.031654300
+2023-06-29 10:23:44,527 INFO c.e.c.ContentsApplication [pool-2-thread-1] log test 2023-06-29T10:23:44.527531
+2023-06-29 10:23:44,692 WARN o.s.b.f.s.DisposableBeanAdapter [SpringApplicationShutdownHook] Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-214]
+2023-06-29 10:43:05,367 INFO o.s.b.StartupInfoLogger [restartedMain] Starting ContentsApplication using Java 17.0.6 with PID 35284 (D:\코딩공부\멋사 5기\박지호강사님\contents-test\out\production\classes started by LGH in D:\코딩공부\멋사 5기\박지호강사님\contents-test)
+2023-06-29 10:43:05,371 DEBUG o.s.b.StartupInfoLogger [restartedMain] Running with Spring Boot v3.1.1, Spring v6.0.10
+2023-06-29 10:43:05,372 INFO o.s.b.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "test"
+2023-06-29 10:43:06,487 WARN o.s.c.s.AbstractApplicationContext [restartedMain] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Failed to instantiate [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean]: Factory method 'entityManagerFactory' threw exception with message: Driver org.h2.Driver claims to not accept jdbcUrl, jdbc:he:mem:testdb
+2023-06-29 10:43:06,512 ERROR o.s.b.SpringApplication [restartedMain] Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Failed to instantiate [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean]: Factory method 'entityManagerFactory' threw exception with message: Driver org.h2.Driver claims to not accept jdbcUrl, jdbc:he:mem:testdb
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:659)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:647)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1332)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1162)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:560)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:520)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1154)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:931)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:608)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:734)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:436)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:312)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295)
+	at com.example.contents.ContentsApplication.main(ContentsApplication.java:17)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50)
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean]: Factory method 'entityManagerFactory' threw exception with message: Driver org.h2.Driver claims to not accept jdbcUrl, jdbc:he:mem:testdb
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:171)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:655)
+	... 24 common frames omitted
+Caused by: java.lang.RuntimeException: Driver org.h2.Driver claims to not accept jdbcUrl, jdbc:he:mem:testdb
+	at com.zaxxer.hikari.util.DriverDataSource.<init>(DriverDataSource.java:110)
+	at com.zaxxer.hikari.pool.PoolBase.initializeDataSource(PoolBase.java:326)
+	at com.zaxxer.hikari.pool.PoolBase.<init>(PoolBase.java:112)
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:93)
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112)
+	at org.springframework.jdbc.datasource.DataSourceUtils.fetchConnection(DataSourceUtils.java:160)
+	at org.springframework.jdbc.datasource.DataSourceUtils.doGetConnection(DataSourceUtils.java:118)
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:81)
+	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:330)
+	at org.springframework.boot.jdbc.EmbeddedDatabaseConnection.isEmbedded(EmbeddedDatabaseConnection.java:168)
+	at org.springframework.boot.autoconfigure.orm.jpa.HibernateDefaultDdlAutoProvider.getDefaultDdlAuto(HibernateDefaultDdlAutoProvider.java:42)
+	at org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaConfiguration.lambda$getVendorProperties$1(HibernateJpaConfiguration.java:142)
+	at org.springframework.boot.autoconfigure.orm.jpa.HibernateSettings.getDdlAuto(HibernateSettings.java:41)
+	at org.springframework.boot.autoconfigure.orm.jpa.HibernateProperties.determineDdlAuto(HibernateProperties.java:118)
+	at org.springframework.boot.autoconfigure.orm.jpa.HibernateProperties.getAdditionalProperties(HibernateProperties.java:87)
+	at org.springframework.boot.autoconfigure.orm.jpa.HibernateProperties.determineHibernateProperties(HibernateProperties.java:80)
+	at org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaConfiguration.getVendorProperties(HibernateJpaConfiguration.java:143)
+	at org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration.entityManagerFactory(JpaBaseConfiguration.java:131)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:139)
+	... 25 common frames omitted
+2023-06-29 10:43:53,926 INFO o.s.b.StartupInfoLogger [restartedMain] Starting ContentsApplication using Java 17.0.6 with PID 19004 (D:\코딩공부\멋사 5기\박지호강사님\contents-test\out\production\classes started by LGH in D:\코딩공부\멋사 5기\박지호강사님\contents-test)
+2023-06-29 10:43:53,929 DEBUG o.s.b.StartupInfoLogger [restartedMain] Running with Spring Boot v3.1.1, Spring v6.0.10
+2023-06-29 10:43:53,929 INFO o.s.b.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "test"
+2023-06-29 10:43:56,304 WARN o.s.c.LocalVariableTableParameterNameDiscoverer [restartedMain] Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.example.contents.UserRepository
+2023-06-29 10:43:56,384 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-06-29 10:43:56,655 INFO o.s.b.StartupInfoLogger [restartedMain] Started ContentsApplication in 3.131 seconds (process running for 3.653)
+2023-06-29 10:44:51,169 WARN o.s.b.f.s.DisposableBeanAdapter [SpringApplicationShutdownHook] Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-214]
+2023-06-29 10:46:04,033 INFO o.s.b.StartupInfoLogger [restartedMain] Starting ContentsApplication using Java 17.0.6 with PID 20876 (D:\코딩공부\멋사 5기\박지호강사님\contents-test\out\production\classes started by LGH in D:\코딩공부\멋사 5기\박지호강사님\contents-test)
+2023-06-29 10:46:04,037 DEBUG o.s.b.StartupInfoLogger [restartedMain] Running with Spring Boot v3.1.1, Spring v6.0.10
+2023-06-29 10:46:04,037 INFO o.s.b.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "dev"
+2023-06-29 10:46:06,325 WARN o.s.c.LocalVariableTableParameterNameDiscoverer [restartedMain] Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.example.contents.UserRepository
+2023-06-29 10:46:06,406 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-06-29 10:46:06,663 INFO o.s.b.StartupInfoLogger [restartedMain] Started ContentsApplication in 3.03 seconds (process running for 3.56)

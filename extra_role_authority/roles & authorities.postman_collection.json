@@ -1,0 +1,198 @@
+{
+	"info": {
+		"_postman_id": "aeb3000b-4b00-46ae-8c88-2733dc858d04",
+		"name": "roles & authorities",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "7233236"
+	},
+	"item": [
+		{
+			"name": "POST /token/issue",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"username\": \"admin\",\n    \"password\": \"asdf\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/token/issue",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"token",
+						"issue"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "POST /token/secured",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImlhdCI6MTY5MDQyMzk4NiwiZXhwIjoxNjkwNDI3NTg2fQ.9IPWBYbWsJkdcxBzOxV7mHVKegW49BTeO_buNoGIK51W6wvjVdyaZmtmqg4odPbL38RBKD-8uUO65TUwp2MLhg",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"username\": \"user\",\n    \"password\": \"asdf\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/token/secured",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"token",
+						"secured"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET /auth/role-user",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImlhdCI6MTY5MDQyNTkzMywiZXhwIjoxNjkwNDI5NTMzfQ.qxdMWF2QeInda0KXs5P1Obni2iGGZfnFoLkhuSby3a0aXMa9sDcMkjsJsP0gXqwl47yIooTKdeFHRHcBIqENmw",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/auth/role-user",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"auth",
+						"role-user"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET /auth/role-admin",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImlhdCI6MTY5MDQyNTkzMywiZXhwIjoxNjkwNDI5NTMzfQ.qxdMWF2QeInda0KXs5P1Obni2iGGZfnFoLkhuSby3a0aXMa9sDcMkjsJsP0gXqwl47yIooTKdeFHRHcBIqENmw",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/auth/role-admin",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"auth",
+						"role-admin"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET /auth/authority-read",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNjkwNDI0Mjc3LCJleHAiOjE2OTA0Mjc4Nzd9.7GSw1Ta2oNu9I1HqjDKrHFdadtyVFdaVtHFpIP1tXZxWtLHqOpxeH-SYbIEK8B7P-12TsPYF5Vj8kqgMLdbOGg",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/auth/authority-read",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"auth",
+						"authority-read"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET /auth/authority-write",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNjkwNDI0Mjc3LCJleHAiOjE2OTA0Mjc4Nzd9.7GSw1Ta2oNu9I1HqjDKrHFdadtyVFdaVtHFpIP1tXZxWtLHqOpxeH-SYbIEK8B7P-12TsPYF5Vj8kqgMLdbOGg",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/auth/authority-write",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"auth",
+						"authority-write"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

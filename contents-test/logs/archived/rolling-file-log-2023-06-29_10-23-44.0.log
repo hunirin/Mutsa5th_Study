@@ -1,0 +1,4 @@
+2023-06-29 10:23:44,031 INFO c.e.c.ContentsApplication [pool-2-thread-1] log test 2023-06-29T10:23:44.031654300
+2023-06-29 10:23:44,527 INFO c.e.c.ContentsApplication [pool-2-thread-1] log test 2023-06-29T10:23:44.527531
+2023-06-29 10:23:44,693 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2023-06-29 10:23:44,827 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.

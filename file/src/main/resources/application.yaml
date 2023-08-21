@@ -1,0 +1,7 @@
+spring:
+  mvc:
+    static-path-pattern: /static/**
+  web:
+    resources:
+      # spring이 정적 파일 요청을 받을때 그 파일을 찾는 경로들
+      static-locations: file:media/,classpath:/static
