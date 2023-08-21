@@ -1,0 +1,19 @@
+spring:
+  rabbitmq:
+    username: mjbmbljt
+    password: 7rWjxXCsKUnjDjpflHuDC7BwyFk1i7Wb
+    host: dingo.rmq.cloudamqp.com
+    virtual-host: mjbmbljt
+
+  datasource:
+    url: jdbc:sqlite:../producer/db.sqlite
+    driver-class-name: org.sqlite.JDBC
+    username: sa
+    password: password
+
+  jpa:
+    hibernate:
+      ddl-auto: none
+    database-platform: org.hibernate.community.dialect.SQLiteDialect
+    show-sql: true
+
